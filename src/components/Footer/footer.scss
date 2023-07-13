@@ -1,0 +1,12 @@
+.footer {
+    background-color: aquamarine;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    margin-bottom: -20px;
+    margin-top: 0;
+    &__text {
+        color: blue;
+    }
+}

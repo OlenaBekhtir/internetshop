@@ -1,0 +1,109 @@
+[
+  {
+      "id": "T1",
+      "name": "Телескоп Arsenal-GSO 150/750, EQ5, M-CRF",
+      "price": 27745,
+      "url": "./img/telescop_white.jpg",
+      "artcl": 120945,
+      "color": "білий"
+  },
+
+  {
+      "id": "T2",
+      "name": "Телескоп Arsenal 130/900, EQ2, рефлектор Ньютона",
+      "price": 12986,
+      "url": "./img/telescop_black.jpg",
+      "artcl": 130922,
+      "color": "чорний"
+  },
+
+  {
+      "id": "T3",
+      "name": "Телескоп Sky-Watcher (Synta) Star Discovery 150 Newton Wi-Fi",
+      "price": 41323,
+      "url": "./img/telescop_red.png",
+      "artcl": 402715,
+      "color": "червоний"
+  },
+
+  {
+      "id": "B1",
+      "name": "Бінокль Konus Vivisport-2 16x32",
+      "price": 950,
+      "url": "./img/binoculars_black.jpg",
+      "artcl": 792642,
+      "color": "чорний"
+  },
+
+  {
+      "id": "B2",
+      "name": "Бінокль Hawke Nature-Trek 12х50",
+      "price": 11350,
+      "url": "./img/binoculars_green.jpg",
+      "artcl":  398601,
+      "color": "зелений"
+  },
+
+  {
+      "id": "B3",
+      "name": "Бінокль Bushnell Forge 10x42",
+      "price": 28270,
+      "url": "./img/binokl-bushnell.jpg",
+      "artcl":  101300,
+      "color": "бежевий"
+  },
+
+  {
+      "id": "M1",
+      "name": "Мікроскоп бінокулярний MICROmed Fusion FS-7520",
+      "price": 15540,
+      "url": "./img/microscop_binocular.jpg",
+      "artcl":  466811,
+      "color": "білий"
+  },
+
+  {
+      "id": "M2",
+      "name": "Мікроскоп біологічний XS-2610 LED MICROmed",
+      "price": 10836,
+      "url": "./img/microscop_monocular.jpg",
+      "artcl":  861026,
+      "color": "білий"
+  },
+
+  {
+      "id": "M3",
+      "name": "Мікроскоп стереоскопічний MICROmed SM-6420 10x-30x",
+      "price": 12516,
+      "url": "./img/microscop_3D.jpg",
+      "artcl":  114664,
+      "color": "білий"
+  },
+
+  {
+      "id": "TH1",
+      "name": "Тепловізійний монокуляр AGM Asp-Micro TM160Y (BC-7316)",
+      "price": 20350,
+      "url": "./img/theplovizor_monocular.jpg",
+      "artcl": 962585,
+      "color": "жовтий"
+  },
+
+  {
+      "id": "TH2",
+      "name": "Тепловізор WINTACT WT3160",
+      "price": 25682,
+      "url": "./img/theplovizor.jpeg",
+      "artcl": 207140,
+      "color": "чорний"
+  },
+
+  {
+      "id": "TH3",
+      "name": "Тепловізійний приціл AGM Rattler TS25-256",
+      "price": 62900,
+      "url": "./img/thermal_sight.jpg",
+      "artcl": 962586,
+      "color": "чорний"
+  }    
+]

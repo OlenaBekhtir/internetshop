@@ -1,0 +1,27 @@
+.open-modal {
+  overflow: hidden;
+}
+
+.app {
+  background-image: url(../../resources/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1220px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.store-message {
+  font-size: 30px;
+  color: red;
+  text-align: center;
+}

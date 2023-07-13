@@ -1,0 +1,68 @@
+.goods-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.goods {
+  position: relative;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  border: 5px solid aquamarine;
+
+  & .goods__title {
+    flex-grow: 1;
+    color: blue;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  &__actions-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  &__favorite {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+    & svg {
+      width: 50px;
+      height: 50px;
+    }
+
+    &--active svg {
+      fill: gold;
+    }
+  }
+
+  &__delete {
+    cursor: pointer;
+    border: 2px solid gray;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.total-price {
+  color: white;
+  font-weight: 500;
+  font-size: 28px;
+  text-align: center;
+  font-style: italic;
+
+  & span {
+    font-weight: 700;
+    font-style: normal;
+    color: aquamarine;
+  }
+}

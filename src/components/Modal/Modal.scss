@@ -1,0 +1,44 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  &__content {
+    background-color: aquamarine;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 50%;
+  }
+
+  &__title {
+    font-size: 24px;
+    margin: 30px;
+
+    & span {
+      color: #000;
+      font-weight: 600;
+    }
+  }
+
+  &__btn-wrapper {
+    text-align: center;
+  }
+
+  &__btn-wrapper button:first-child {
+    margin-right: 20px;
+  }
+
+  &__close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
